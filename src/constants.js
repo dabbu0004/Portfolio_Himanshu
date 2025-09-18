@@ -262,7 +262,7 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "Web App For Reviewing and Post Places ",
+      title: "Place Review Website(MAJORPROJECT) ",
       description:
         "A reviewing website for for hotles and places where user can login and  post there reviews on places also they can create posts of places with full authenticaions these images of places will store in any format in database and the real time map to locate that place also provided",
       image: wonderlustLogo,
