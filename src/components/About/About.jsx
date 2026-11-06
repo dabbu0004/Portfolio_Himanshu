@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.jpg';
@@ -40,11 +40,10 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 1 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I am learning  MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+          Full-Stack AI Engineer who builds production web applications with React, Next.js, and Node.js and integrates AI into
+them using Python. Experience with LLMs, prompt engineering, RAG, and LangChain, plus computer vision ,speaker
+recognition (dlib, scikit-learn) and Data Visualization . Strong at taking features from idea to deployment, with clean REST
+APIs and databases. Adept at solving complex client requirements with strong business acumen and collaboration skills
           </p>
           {/* Resume Button */}
           <a

@@ -1,37 +1,37 @@
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
+// import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
+// import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
+// import gsapLogo from './assets/tech_logo/gsap.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
+// import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
+// import firebaseLogo from './assets/tech_logo/firebase.png';
+// import cLogo from './assets/tech_logo/c.png';
+// import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
+// import pythonLogo from './assets/tech_logo/python.png';
+// import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
+// import figmaLogo from './assets/tech_logo/figma.png';
+// import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import renderLogo from './assets/tech_logo/render.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+// import csharpLogo from './assets/tech_logo/csharp.png';
 import awsLogo from './assets/tech_logo/aws.png';
 import viteLogo from './assets/tech_logo/vite.png';
  import dockerlogo from './assets/tech_logo/docker.png';
@@ -39,9 +39,9 @@ import viteLogo from './assets/tech_logo/vite.png';
 
 
 // // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+// import webverseLogo from './assets/company_logo/webverse_logo.png';
+// import agcLogo from './assets/company_logo/agc_logo.png';
+// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 import sihLogo from './assets/company_logo/sih_logo.png';
 import HackLogo  from './assets/company_logo/hackIndia_logo.png';
@@ -50,7 +50,7 @@ import ApnaLogo from './assets/company_logo/apna_logo.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
+// import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
@@ -62,10 +62,10 @@ import zerodhaLogo from './assets/work_logo/zerodhaLogo.png';
 import SocialConnectAppLogo from './assets/work_logo/SocialConnectApp.png';
 import VirtualAssitantLogo from './assets/work_logo/virtualCoverPage.png';
 
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+// import webverLogo from './assets/work_logo/web_dig.png';
+// import cmLogo from './assets/work_logo/cm.png';
+// import imagesearchLogo from './assets/work_logo/image_search.png';
+// import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
 export const SkillsInfo = [
@@ -210,6 +210,7 @@ export const SkillsInfo = [
       degree: "CBSE(X), Science with Computer Application",
     },
   ];
+
   
   export const projects = [
 
@@ -262,7 +263,7 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "Place Review Website(MAJORPROJECT) ",
+      title: "Place Review Website(MAJORPROJECT)",
       description:
         "A reviewing website for for hotles and places where user can login and  post there reviews on places also they can create posts of places with full authenticaions these images of places will store in any format in database and the real time map to locate that place also provided",
       image: wonderlustLogo,
@@ -293,6 +294,39 @@ export const SkillsInfo = [
       github: "https://github.com/dabbu0004/GitHub-Profile-Search.git",
       webapp: "https://github-profile-search-1.onrender.com",
     },
+       {
+      id: 7,
+      title: "Ecommerce Website",
+      description:
+        "A fully functional e-commerce website built with React.js, Node.js, and MongoDB. It features user authentication, product listings, shopping cart functionality, and secure payment integration. The responsive design ensures a seamless shopping experience across devices.",
+      image: githubdetLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      github: "",
+      webapp: "https://benazepharma.com/",
+    },
+      {
+      id: 8,
+      title: "Services Website",
+      description:
+        "A fully functional e-commerce website built with React.js, Node.js, and MongoDB. It features user authentication, product listings, shopping cart functionality, and secure payment integration. The responsive design ensures a seamless shopping experience across devices.",
+      image: githubdetLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      github: "",
+      webapp: "https://igequipment.com/",
+    },
+      {
+      id: 9,
+      title: "B2B Website (UISPPL)",
+      description:
+        "A fully functional e-commerce website built with React.js, Node.js, and MongoDB. It features user authentication, product listings, shopping cart functionality, and secure payment integration. The responsive design ensures a seamless shopping experience across devices.",
+      image: githubdetLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      github: "",
+      webapp: "https://uisppl.com/",
+    },
+    
+
+    
     
 
 
