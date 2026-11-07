@@ -5,13 +5,13 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2"
+      className="py-24 pb-24 px-[12vw] md:px-0   font-sans bg-skills-gradient clip-path-custom-2"
     >
       {/* Section Title */}
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
+      <div className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
+        <h2 className="text-3xl font-bold text-white sm:text-4xl">EXPERIENCE</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-semibold">
+        <p className="mt-4 text-base font-semibold text-gray-400 sm:text-lg">
           A collection of my work experience and the roles I have taken in
           various organizations
         </p>
@@ -20,18 +20,18 @@ const Experience = () => {
       {/* Experience Timeline */}
       <div className="relative">
         {/* Vertical line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        <div className="absolute bottom-0 left-4 top-0 w-1 bg-white sm:left-1/2 sm:-translate-x-1/2"></div>
 
         {/* Experience Entries */}
         {experiences.map((experience, index) => (
           <div
             key={experience.id}
-            className={`flex flex-col sm:flex-row items-center mb-16 ${
+            className={`relative mb-10 flex flex-col items-stretch sm:mb-16 sm:flex-row sm:items-center ${
               index % 2 === 0 ? "sm:justify-end" : "sm:justify-start"
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+            <div className="absolute left-4 top-4 z-10 flex h-10 w-10 -translate-x-1/2 items-center justify-center rounded-full border-4 border-[#8245ec] bg-gray-400 sm:left-1/2 sm:top-auto sm:h-16 sm:w-16">
               <img
                 src={experience.img}
                 alt={experience.company}
@@ -41,14 +41,14 @@ const Experience = () => {
 
             {/* Content Section */}
             <div
-              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${
+              className={`w-full rounded-2xl border border-white bg-gray-900 p-4 shadow-2xl shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] backdrop-blur-md sm:max-w-md sm:p-8 ${
                 index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105`}
+              } ml-8 transform transition-transform duration-300 hover:scale-[1.02] sm:ml-44 sm:mr-44`}
             >
               {/* Flex container for image and text */}
-              <div className="flex items-center space-x-6">
+              <div className="flex items-center gap-4 sm:gap-6">
                 {/* Company Logo/Image */}
-                <div className="w-16 h-16 bg-white rounded-md overflow-hidden">
+                <div className="h-14 w-14 shrink-0 overflow-hidden rounded-md bg-white sm:h-16 sm:w-16">
                   <img
                     src={experience.img}
                     alt={experience.company}
@@ -59,7 +59,7 @@ const Experience = () => {
                 {/* Role, Company Name, and Date */}
                 <div className="flex flex-col justify-between">
                   <div>
-                    <h3 className="text-xl sm:text-2xl font-semibold text-white">
+                    <h3 className="text-lg font-semibold text-white sm:text-2xl">
                       {experience.role}
                     </h3>
                     <h4 className="text-md sm:text-sm text-gray-300">

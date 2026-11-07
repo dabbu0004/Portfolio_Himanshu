@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
@@ -15,20 +15,20 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw]   font-sans relative"
     >
       {/* Section Title */}
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
+      <div className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
+        <h2 className="text-3xl font-bold text-white sm:text-4xl">PROJECTS</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-semibold">
+        <p className="mt-4 text-base font-semibold text-gray-400 sm:text-lg">
           A showcase of the projects I have worked on, highlighting my skills
           and experience in various technologies
         </p>
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -39,11 +39,11 @@ const Work = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover rounded-xl"
+                className="h-44 w-full rounded-xl object-cover sm:h-48"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold text-white mb-2">
+              <h3 className="mb-2 text-xl font-bold text-white sm:text-2xl">
                 {project.title}
               </h3>
               <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
@@ -67,7 +67,7 @@ const Work = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+          <div className="relative max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-xl bg-gray-900 shadow-2xl">
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
@@ -102,12 +102,12 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-5">
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-5">
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/3 bg-gray-800 hover:bg-purple-800 text-gray-400 rounded-xl lg:text-xl text-sm font-semibold flex items-center justify-center lg:px-6 lg:py-2 px-2 py-1 text-center"
+                    className="flex min-h-10 items-center justify-center rounded-xl bg-gray-800 px-2 py-2 text-center text-sm font-semibold text-gray-400 hover:bg-purple-800 sm:px-6 sm:text-base"
                   >
                     View Code
                   </a>
@@ -116,7 +116,7 @@ const Work = () => {
                     href={selectedProject.screenshots} // corrected spelling from screenshorts to screenshots
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/3 bg-purple-600 hover:bg-purple-800 text-white rounded-xl lg:text-xl text-sm font-semibold flex items-center justify-center lg:px-6 lg:py-2 px-2 py-1 text-center"
+                    className="flex min-h-10 items-center justify-center rounded-xl bg-purple-600 px-2 py-2 text-center text-sm font-semibold text-white hover:bg-purple-800 sm:px-6 sm:text-base"
                   >
                     View Screenshots
                   </a>
@@ -125,7 +125,7 @@ const Work = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/3 bg-purple-600 hover:bg-purple-800 text-white rounded-xl lg:text-xl text-sm font-semibold flex items-center justify-center lg:px-6 lg:py-2 px-2 py-1 text-center"
+                    className="flex min-h-10 items-center justify-center rounded-xl bg-purple-600 px-2 py-2 text-center text-sm font-semibold text-white hover:bg-purple-800 sm:px-6 sm:text-base"
                   >
                     View Live
                   </a>

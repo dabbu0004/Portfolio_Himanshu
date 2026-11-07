@@ -1,5 +1,5 @@
-import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+// import React from "react";
+// import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -11,13 +11,13 @@ const Footer = () => {
   };
 
   return (
-    <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
+    <footer className="px-4 py-8 text-white sm:px-6 lg:px-8">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
         <h2 className="text-xl font-semibold text-purple-500">Himanshu</h2>
 
         {/* Navigation Links - Responsive */}
-        <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
+        <nav className="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-1 sm:gap-x-6">
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
@@ -36,7 +36,7 @@ const Footer = () => {
         </nav>
 
         {/* Social Media Icons - Responsive */}
-        <div className="flex flex-wrap justify-center space-x-4 mt-6">
+        {/* <div className="mt-6 flex flex-wrap justify-center gap-4">
           {[
             { icon: <FaFacebook />, link: "" },
             { icon: <FaTwitter />, link: "" },
@@ -55,11 +55,11 @@ const Footer = () => {
               {item.icon}
             </a>
           ))}
-        </div>
+        </div> */}
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Himanshu. All rights reserved.
+          © 2026 Himanshu. All rights reserved.
         </p>
       </div>
     </footer>
