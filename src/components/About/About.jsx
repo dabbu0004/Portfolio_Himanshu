@@ -64,8 +64,8 @@ APIs and databases. Adept at solving complex client requirements with strong bus
         <div className="flex w-full justify-center md:w-1/2 md:justify-end">
           <Tilt
             className="h-[min(78vw,30rem)] w-[min(78vw,30rem)] max-h-[30rem] max-w-[30rem] rounded-full border-4 border-purple-700"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
+            tiltMaxAngleX={10}
+            tiltMaxAngleY={10}
             perspective={1000}
             scale={1.05}
             transitionSpeed={1000}
