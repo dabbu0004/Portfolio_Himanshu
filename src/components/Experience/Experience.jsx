@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 pb-24 px-[12vw] md:px-0   font-sans bg-skills-gradient clip-path-custom-2"
+      className="py-24 pb-24 px-[12vw] md:px-0.5 font-sans bg-skills-gradient clip-path-custom-2"
     >
       {/* Section Title */}
       <div className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">

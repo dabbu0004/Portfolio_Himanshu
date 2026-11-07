@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="bg-skills-gradient px-4 py-16 pb-20 font-sans clip-path-custom-3 sm:px-6 sm:py-20 md:px-0  "
+      className="bg-skills-gradient px-4 py-16 pb-20 font-sans clip-path-custom-3 sm:px-6 sm:py-20 md:px-0.5  "
     >
       {/* Section Title */}
       <div className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
