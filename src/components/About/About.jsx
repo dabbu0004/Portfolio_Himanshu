@@ -39,12 +39,15 @@ const About = () => {
             />
           </h3>
           {/* About Me Paragraph */}
-          <p className="mb-8 mt-6 text-base leading-relaxed text-gray-400 sm:text-lg md:mt-8">
+          <p className="mb-5 mt-6 text-base leading-relaxed text-gray-400 sm:text-lg md:mt-8">
           Full-Stack AI Engineer who builds production web applications with React, Next.js, and Node.js and integrates AI into
 them using Python. Experience with LLMs, prompt engineering, RAG, and LangChain, plus computer vision ,speaker
 recognition (dlib, scikit-learn) and Data Visualization . Strong at taking features from idea to deployment, with clean REST
 APIs and databases. Adept at solving complex client requirements with strong business acumen and collaboration skills
           </p>
+<span className="text-base font-extrabold text-transparent bg-clip-text  bg-gradient-to-r from-fuchsia-500 to-orange-500 animate-pulse sm:text-xl">
+  Successfully shipped 25+ production projects 
+</span>
           {/* Resume Button */}
           <a
             href="https://drive.google.com/file/d/18HAuMj9rjPWfcU7hYbU7wCeyRAESHIeI/view?usp=drivesdk"
