@@ -36,6 +36,15 @@ import awsLogo from './assets/tech_logo/aws.png';
 import viteLogo from './assets/tech_logo/vite.png';
  import dockerlogo from './assets/tech_logo/docker.png';
  import mongooseLogo from './assets/tech_logo/mongooseLogo.png';
+ import  claude  from './assets/tech_logo/claude.png';
+ import   gemini from './assets/tech_logo/gemini.png';
+ import gpt from './assets/tech_logo/gpt.png';
+ import cursor from './assets/tech_logo/cursor.png';
+ import pythonLogo from './assets/tech_logo/pythonLogo.png';
+ import streamlit from './assets/tech_logo/streamlit.png';
+ import  PostGre from  './assets/tech_logo/postgre.png';
+ import flask from './assets/tech_logo/flask.jpg';
+ import Fast from './assets/tech_logo/fast.png';
 
 
 // // Experience Section Logo's
@@ -45,7 +54,8 @@ import viteLogo from './assets/tech_logo/vite.png';
 
 import sihLogo from './assets/company_logo/sih_logo.png';
 import HackLogo  from './assets/company_logo/hackIndia_logo.png';
-import ApnaLogo from './assets/company_logo/apna_logo.png';
+//import ApnaLogo from './assets/company_logo/apna_logo.png'
+import  CocLogo from './assets/company_logo/cocLogo.png';
 
 
 // Education Section Logo's
@@ -61,7 +71,10 @@ import wonderlustLogo from './assets/work_logo/wonderlustLogo.png';
 import zerodhaLogo from './assets/work_logo/zerodhaLogo.png';
 import SocialConnectAppLogo from './assets/work_logo/SocialConnectApp.png';
 import VirtualAssitantLogo from './assets/work_logo/virtualCoverPage.png';
-
+import BenazeLogo from './assets/work_logo/benazeLogo.png';
+import IgequipmentLogo from './assets/work_logo/igLogo.png';
+import UispplLogo from './assets/work_logo/uispplLogo.png';
+import AiAttendanceLogo from './assets/work_logo/AiAttendenceLogo.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -74,6 +87,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
+      { name: 'Streamlit', logo: streamlit },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
@@ -92,8 +106,12 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'PostGreSQL', logo: PostGre },
          { name: 'Mongoose', logo: mongooseLogo },
       { name: 'AWS', logo: awsLogo },
+      { name: 'Flask', logo: flask },
+      { name: 'FastAPI', logo: Fast },
+
 
     ],
   },
@@ -103,7 +121,24 @@ export const SkillsInfo = [
  
       { name: 'Java', logo: javaLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'Docker', logo: dockerlogo },
+      { name: 'Python', logo: pythonLogo },
+     
+
+    ],
+  },
+     {
+    title: 'AI & ML',
+    skills: [
+ 
+      { name: 'AI Apis', logo: "" },
+      { name: 'Language Models', logo: "" },
+      { name: 'LangChain', logo: "" },
+      { name: 'Transformers', logo: "" },
+      { name: 'TensorFlow', logo: "" },
+      { name: 'PyTorch', logo: "" },
+      { name: 'n8n-basic', logo: "" },
+
+     
 
     ],
   },
@@ -117,9 +152,15 @@ export const SkillsInfo = [
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Render', logo: renderLogo },
+       { name: 'Docker', logo: dockerlogo },
+       { name: 'Claude', logo: claude },
+       { name: 'Gemini', logo: gemini },
+       { name: 'GPT', logo: gpt },
+       { name: 'Cursor', logo: cursor },
 
     ],
   },
+ 
 ];
 
   export const experiences = [
@@ -160,23 +201,27 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      img: ApnaLogo,
-      role: " FUll Stack Developer",
-      company: " Apna College ",
-      date: " January 2024 - July 2024",
-      desc: " Learning about frontend and backend both ,there implementation  and building responsive practice web application projects",
+      img: CocLogo,
+      role: " FUll Stack Ai Developer",
+      company: "Creative On Coffee",
+      date: " Feb 2026 - Current",
+      desc: "Worked as a Full Stack AI Developer Intern, developing and deploying AI-powered web applications using React, Next.js, Node.js, and Python. Implemented machine learning models for various tasks, including natural language processing and computer vision, and integrated them into web applications to enhance user experience.",
       skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-        "Redux",
         " MERN Stack",
+        "Next.js",
+        "Python",
+        "OpenCV",
+        "LangChain",
+        "TensorFlow",
+        "Scikit-learn",
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Seaborn",
+        "Jupyter Notebook",
         
       ],
-       certificateLink: "https://drive.google.com/file/d/1Q6YBKnwHLcro6o7XXf3ALoSm8X8WSC5M/view?usp=sharing",
+      
     },
   ];
   
@@ -213,6 +258,18 @@ export const SkillsInfo = [
 
   
   export const projects = [
+    
+     {
+      id: 10,
+      title: "AI Attendance System",
+      description:
+        "A web application that uses AI to take attendance of students in a classroom setting. It uses computer vision techniques to recognize faces and mark attendance automatically, eliminating the need for manual roll calls.Also  the pic click and voice recognition is also provided to make it more user friendly and easy to use",
+         image: AiAttendanceLogo,
+      tags: ["streamlit","Python", "OpenCV", "Face Recognition", "Voice Recognition"],
+      github: "https://github.com/dabbu0004/Ai-Attandence.git",
+      webapp: "https://ai-attandence-himanshu.streamlit.app/",
+     screenshots:""
+    },
 
      {
       id: 0,
@@ -299,18 +356,20 @@ export const SkillsInfo = [
       title: "Ecommerce Website",
       description:
         "A fully functional e-commerce website built with React.js, Node.js, and MongoDB. It features user authentication, product listings, shopping cart functionality, and secure payment integration. The responsive design ensures a seamless shopping experience across devices.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      image: BenazeLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Authentication"],
       github: "",
       webapp: "https://benazepharma.com/",
+      screenshots:"https://drive.google.com/drive/folders/1fNRinkscXKP5uwEz_64zvVVyX8eZ_SkU?usp=sharing",
+   
     },
       {
       id: 8,
       title: "Services Website",
       description:
         "A fully functional e-commerce website built with React.js, Node.js, and MongoDB. It features user authentication, product listings, shopping cart functionality, and secure payment integration. The responsive design ensures a seamless shopping experience across devices.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      image: IgequipmentLogo,
+      tags: ["MERN" ,"SEO","Web Crawling","Web Scraping"],
       github: "",
       webapp: "https://igequipment.com/",
     },
@@ -319,7 +378,7 @@ export const SkillsInfo = [
       title: "B2B Website (UISPPL)",
       description:
         "A fully functional e-commerce website built with React.js, Node.js, and MongoDB. It features user authentication, product listings, shopping cart functionality, and secure payment integration. The responsive design ensures a seamless shopping experience across devices.",
-      image: githubdetLogo,
+      image: UispplLogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
       github: "",
       webapp: "https://uisppl.com/",
