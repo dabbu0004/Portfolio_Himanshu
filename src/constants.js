@@ -232,7 +232,7 @@ export const SkillsInfo = [
       school: "Aravali College OF Engineering and Management, Faridabad",
       date: "Sept 2022 - July 2026",
       grade: "7.6 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+      desc: "I had completed my Bachelor's degree in Computer Science from Aravali College of Engineering and Management, Faridabad, where I have gained a strong foundation in programming, algorithms, and software development.",
       degree: "Bechlor of Technology  (Computer Science)",
     },
    
