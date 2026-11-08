@@ -73,7 +73,7 @@ import SocialConnectAppLogo from './assets/work_logo/SocialConnectApp.png';
 import VirtualAssitantLogo from './assets/work_logo/virtualCoverPage.png';
 import BenazeLogo from './assets/work_logo/benazeLogo.png';
 import IgequipmentLogo from './assets/work_logo/igLogo.png';
-import UispplLogo from './assets/work_logo/uispplLogo.png';
+import UispplLogo from './assets/work_logo/UispplLogo.png';
 import AiAttendanceLogo from './assets/work_logo/AiAttendenceLogo.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
