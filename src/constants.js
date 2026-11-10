@@ -71,7 +71,7 @@ import wonderlustLogo from './assets/work_logo/wonderlustLogo.png';
 import zerodhaLogo from './assets/work_logo/zerodhaLogo.png';
 import SocialConnectAppLogo from './assets/work_logo/SocialConnectApp.png';
 import VirtualAssitantLogo from './assets/work_logo/virtualCoverPage.png';
-import BenazeLogo from './assets/work_logo/benazeLogo.png';
+import BenazeLogo from './assets/work_logo/benazeLogo.png'; 
 import IgequipmentLogo from './assets/work_logo/igLogo.png';
 import UispplLogo from './assets/work_logo/UispplLogo.png';
 import AiAttendanceLogo from './assets/work_logo/AiAttendenceLogo.png';
